@@ -9,11 +9,8 @@ dentro del bloque if hara lo que digamos si se cumple la condicion es este caso 
 
 si no se cumple la condicion pasara al bloque else if y imprimira por consola que es demasiado mayor para beber
 
-```md
 > [!NOTE]
-
-> Podemos poner tantos else if como queramos
-```
+> Podemos poner tantos if else como queramos
 
 si es menor de edad llegara al ultimo bloque else imprimira que no puede beber y tambien nos dira cuantos años le quedan para empezar a beber
 

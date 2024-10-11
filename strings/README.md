@@ -17,7 +17,6 @@ Podemos imprimir esta variable de este modo
 ### Métodos
 
 > [!IMPORTANT]
-
 > para acceder a los metodos en java usamos un .
 
 ### Método length()
@@ -55,7 +54,6 @@ int longitud = texto.length();
 Selecciona un único carácter a partir de un índice
 
 > [!IMPORTANT]
-
 > Los indices empiezan desde la posicion 0 todo en java tiene un indice
 
 ```java
@@ -101,7 +99,6 @@ este ejemplo cortará la cadena y nos devolverá el texto ejemplo
 ```
 
 > [!IMPORTANT]
-
 > para concatenar una variable o un texto usamos el perador +
 
 Ahora veremos un ejemplo con el siguiente método
@@ -137,7 +134,6 @@ Con este método podemos quitar los espacios de una cadena de texto
 ```
 
 > [!IMPORTANT]
-
 > Un string es de tipo inmutable significa que no se puede cambiar una vez que esta definido cuando usamos un metodo por ejemplo el método toUpperCase() se crea un nuevo objeto de tipo String evitando que el String original se modifique de esta menera se crea una copia sin afectar al original.
 
 ### conclusión
