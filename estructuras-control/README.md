@@ -16,6 +16,8 @@ si es menor de edad llegara al ultimo bloque else imprimira que no puede beber y
 
 el bloque else siempre se pone al final seria la ultima condicion
 
+### Aqui esta el codigo completo
+
 ```java
 
   int edad = 15;
@@ -29,4 +31,15 @@ el bloque else siempre se pone al final seria la ultima condicion
             System.out.println("no puedes beber te quedan " + (18 - edad) + " años");
         }
 
+```
+
+> [!NOTE]
+> en el else que escribimos Los () indican que la operacion tiene prioridad es decir que primero se realiza la operacion de 18 - edad luego se concatenara el texto
+
+### Ejemplo
+
+```java
+ else {
+     System.out.println("no puedes beber te quedan " + (18 - edad) + " años");
+        }
 ```
