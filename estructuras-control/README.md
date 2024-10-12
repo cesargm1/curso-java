@@ -78,3 +78,101 @@ Por ejemplo si ponemos batman entrara al primer caso y luego saldra gracias al b
 
 > [!WARNING]
 > Cuidado al quitar los break ya que se hacemos esto el switch no se detendra.
+
+## Bucle For
+
+Esta es la estructura del for esta es su sintaxis.
+
+```java
+
+for(inicializacion;condicion;incremento variable){
+    aqui va el codigo que se ejecutara
+}
+```
+
+### Ejemplo
+
+```java
+ for (int i = 0; i <= 50; i++) {
+            System.out.println("numero: " + i);
+        }
+```
+
+## For anidado
+
+> ![IMPORTANT]
+> En el for anidado entra al bucle exterior hace una iteracion luego pasa al bucle interior y hace todas las iteraciones esto sucerera hasta que se acaben las iteraciones del buble exterior
+
+```java
+   int i;
+   int j;
+
+        for (i = 1; i <= 4; i++) {
+            for (j = 1; j <= 4; j++) {
+                System.out.print("i: ");
+                System.out.print(i);
+                System.out.print("j: ");
+                System.out.println(j);
+            }
+        }
+```
+
+### Salida por consola
+
+```console
+i: 1j: 1
+i: 1j: 2
+i: 1j: 3
+i: 1j: 4
+i: 2j: 1
+i: 2j: 2
+i: 2j: 3
+i: 2j: 4
+i: 3j: 1
+i: 3j: 2
+i: 3j: 3
+i: 3j: 4
+i: 4j: 1
+i: 4j: 2
+i: 4j: 3
+i: 4j: 4
+```
+
+## Bucle while
+
+Es muy similar al bucle for
+
+Esta es su sintaxis
+
+```java
+
+ int contador = 0; // incializa la variable
+
+
+    while (contador <= 20)  { //condicion
+
+            System.out.println(contador); // dentro de las llaves el codigo que ejecutara
+
+            contador++; // incremento
+
+        }
+
+```
+
+> ![WARNING]
+> Cuidado con no declarar el incremento en el while si no lo hacemos se producira un bucle infinito esto significa que la variable no se actualizara y siempre tendra el mismo valor dando como resultado un bucle infinito esto tambien se aplica al do while.
+
+Aqui dejo un ejemplo mal hecho de un while infinito ya que nunca sale del bucle.
+
+```java
+
+  int contador = 0;
+
+        while (contador <= 20) {
+
+            System.out.println(contador);
+        }
+
+```
+
+Aun falta documentar
