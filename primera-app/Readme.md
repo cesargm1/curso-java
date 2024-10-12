@@ -1,5 +1,13 @@
 # Introduccion java
 
+> [INPORTANT]
+> Para compilar archivos un java y que lo entienda la MV ejecutar este comando de abajo
+
+```java
+javac App.java // compilando javac nombre de clase + extension y luego poner java y la clase sin extension
+java App
+```
+
 Asi se ponen comentarios
 
 ```java
