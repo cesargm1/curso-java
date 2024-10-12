@@ -1,6 +1,6 @@
 # Introduccion java
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > Para compilar archivos un java y que lo entienda la MV ejecutar este comando de abajo
 
 ```java

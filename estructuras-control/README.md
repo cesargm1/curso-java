@@ -159,7 +159,7 @@ Esta es su sintaxis
 
 ```
 
-> ![WARNING]
+> [!CAUTION]
 > Cuidado con no declarar el incremento en el while si no lo hacemos se producira un bucle infinito esto significa que la variable no se actualizara y siempre tendra el mismo valor dando como resultado un bucle infinito esto tambien se aplica al do while.
 
 Aqui dejo un ejemplo mal hecho de un while infinito ya que nunca sale del bucle.
