@@ -48,7 +48,7 @@ Esto pasa debido a que los arrays como mencionamos antes empiezan desde el 0 si 
         System.out.println(numeros);
 ```
 
-> ![CAUTION]
+> [!CAUTION]
 > Cuidado si lo ejecutamos nos dira la posicion de memoria de el array.
 
 ```console
@@ -85,7 +85,7 @@ int[] numeros = new int[5];
 4
 ```
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > como podemos observar en la salida por consola si dejamos una posicion vacia en el array son devolvera 0
 
 Podemos saber cuantos elementos hay en un array gracias al metodo length()
@@ -148,7 +148,7 @@ Veamos un ejemplo explicandolo paso por paso.
 
 6. Por ultimo imprimimos la variable numeros que es el array completo y hacedemos a todas sus posiciones gracias a la variable index que almacenaba cada posicion en el array con un numero asociado.
 
-> [WARNING]
+> [!WARNING]
 > Primero accedemos a la variable que almacena el array y luego a su indice de esta manera si no hacemos esto no funcionara
 
 ```java
@@ -167,7 +167,7 @@ Tambien podemos recorrer arrays sin usar la palabra New ni los indices
         }
 ```
 
-> ![Note]
+> [!NOTE]
 > Los indices de este array seran
 > indice 0 valor 10
 > indice 1 valor 20
