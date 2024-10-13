@@ -4,7 +4,7 @@
 
 Los arrays son estructuras que tienen valores del mismo tipo por ejemplo un String y tienen un nombre asociado gracias a los arrays podemos guardar muchos valores del mismo tipo.
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Podemos acceder a los elementos de un array gracias a los indices estos valores se almacenan en la memoria secuencialmente es decir uno detras de otro hay que aclarar que los indices enpiezan por 0 y no por 1. Los indices no los usan solo los arrays si no tambien se utilizan en todas las variables objetos ect para saber la posicion de un elemnto.
 
 ### Declarar arrays
@@ -32,7 +32,7 @@ int[] numeros = new int[5];
         System.out.println(numeros);
 ```
 
-> ![CAUTION]
+> [!CAUTION]
 > Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5 at App.main(App.java:9)
 
 Este error nos dice que no podemos acceder al indice 5 pero si nuestro array es de 5 elementos porque pasa esto?
