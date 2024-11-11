@@ -22,7 +22,7 @@ public class Persona {
 }
 ```
 
-estos son atributos ya que definen el estado de la clase o objeto en este caso seria la clase persona ya que es una plantilla para crear nuevos objetos persona
+estos son atributos ya que definen el estado/caracteristicas de la clase o objeto en este caso seria la clase persona ya que es una plantilla para crear nuevos objetos persona
 
 ## Llamando a la clase persona desde la clase principal App dentro del Main
 
@@ -107,17 +107,76 @@ public class App {
         persona1.apellido = "Alvarez";
         persona1.edad = 28;
 
-        Persona persona2 = new Persona();
+        // creamos objeto de persona 2
+         Persona persona2 = new Persona();
 
         persona2.nombre = "Sara";
         persona2.apellido = "Gomez";
         persona2.edad = 24;
+
+        // poemos usar el metodo nombre completo en vez de nombre y apeelido que es mas corto
 
         System.out.println(
                 "hola soy " + persona1.NombreCompleto() + " y tengo " + persona1.edad + " años");
 
         System.out.println(
                 "hola soy " + persona2.NombreCompleto() + " y tengo " + persona2.edad + " años");
+        System.out.println(persona2.saludar(" cristo"));
+
+    }
+}
+
+```
+
+Creamos una nueva clase Carrera con sus atributos
+
+```java
+public class Carrera {
+    String momnbre;
+    int duracion;
+    boolean estaCursando;
+}
+```
+
+Las claes pueden ser atributos de otras clases en este caso la clase Carrera sera un atributo de la clase App veamos un ejemplo de clase como atributo
+
+```java
+public class App {
+
+    public static void main(String[] args) throws Exception {
+        Persona persona1 = new Persona();
+        persona1.nombre = "Juan";
+        persona1.apellido = "Alvarez";
+        persona1.edad = 28;
+
+        // objeto carrera1 apartir de la clase carrera que es un atributo de app
+        Carrera carrera1 = new Carrera();
+        carrera1.nombre = "ciencias";
+        carrera1.duracion = 10;
+        carrera1.estaCursando = false;
+
+        persona1.carrera = carrera1;
+
+        Persona persona2 = new Persona();
+
+        persona2.nombre = "Sara";
+        persona2.apellido = "Gomez";
+        persona2.edad = 24;
+
+        Carrera carrera2 = new Carrera();
+        carrera2.nombre = "programacion";
+        carrera2.duracion = 20;
+        carrera2.estaCursando = true;
+
+        persona2.carrera = carrera2;
+
+        System.out.println(
+                "hola soy " + persona1.NombreCompleto() + " y tengo " + persona1.edad + " años " + "estoy cursando "
+                        + persona1.carrera.nombre);
+
+        System.out.println(
+                "hola soy " + persona2.NombreCompleto() + " y tengo " + persona2.edad + " años " + "estoy cursando "
+                        + persona2.carrera.nombre);
         System.out.println(persona2.saludar(" cristo"));
 
     }

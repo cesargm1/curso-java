@@ -5,6 +5,7 @@ public class Persona {
     int edad;
     String[] lenguajes;
     boolean esEstudiante;
+    public Carrera carrera;
 
     public String NombreCompleto() {
         return nombre + " " + apellido;
