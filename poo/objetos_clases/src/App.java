@@ -1,7 +1,7 @@
 public class App {
 
     public static void main(String[] args) throws Exception {
-        Persona persona1 = new Persona();
+        Persona persona1 = new Persona(null, null, 0);
         persona1.nombre = "Juan";
         persona1.apellido = "Alvarez";
         persona1.edad = 28;
@@ -13,7 +13,7 @@ public class App {
 
         persona1.carrera = carrera1;
 
-        Persona persona2 = new Persona();
+        Persona persona2 = new Persona(null, null, 0);
 
         persona2.nombre = "Sara";
         persona2.apellido = "Gomez";

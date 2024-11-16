@@ -7,6 +7,10 @@ public class Persona {
     boolean esEstudiante;
     public Carrera carrera;
 
+    public Persona(String noString, String string2, int i) {
+
+    }
+
     public String NombreCompleto() {
         return nombre + " " + apellido;
     }
