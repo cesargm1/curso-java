@@ -7,6 +7,7 @@ public class Gato extends Animal {
         // animal a gato estas propiedades nombre y edad son unicas de la clase animal y
         // no de gato para que el gato herede las propiedades u
         // samos extends y luego super para añadir la informacion heredada
+        // las funciones o metodos se heredan directamente de la clase padre
         super(nombre, edad);
     }
 
